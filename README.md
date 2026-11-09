@@ -4,6 +4,10 @@ Kursbok för TEKK1000X på Hitachigymnasiet Västerås.
 
 I kursen fördjupar du dig i ett teknikområde, och här är området **smarta system**: robotik, sensorer, reglering, ROS2, uppkopplade system och säkerhet. Du lär dig hur robotar känner av världen, fattar beslut och kommunicerar. Du lär dig också att testa dina lösningar, redovisa dem och fundera över deras påverkan på människor och miljö.
 
+## Kurspresentation
+
+En översikt över kursen, dess delar och projekt: [Smarta system - Kurspresentation.pptx](Smarta%20system%20-%20Kurspresentation.pptx)
+
 ## Så använder du boken
 
 - Läs kapitlet innan du börjar på projektet som det förbereder. Tabellen längre ned visar vilket kapitel som hör till vilket projekt.
