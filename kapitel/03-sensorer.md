@@ -107,15 +107,6 @@ Sambandet är viktigt att komma ihåg: ju snabbare roboten kör, desto oftare be
 - **Kalibrering:** jämförelse med något känt och justering utifrån det.
 - **Mättakt:** hur ofta sensorn mäter, anges i hertz.
 
-## Testa dig själv
-
-1. Varför delas den uppmätta sträckan med två i formeln för ultraljud?
-2. Vad är skillnaden mellan noggrannhet och upplösning?
-3. Varför klarar medianen en spik bättre än medelvärdet?
-4. Varför kommer ett större medianfilter att reagera långsammare?
-5. Varför ska en ljussensor kalibreras på samma plats som den används?
-6. Nämn två situationer där en ultraljudssensor kan ge fel eller inget eko alls.
-
 ## Koppling till projektet
 
 I [Robotmopp](../projekt/robotmopp/README.md) använder du ultraljudssensorn för hinderstopp och en ljussensor för nivå 3, och där behövs både filter och kalibrering. Sensorförståelsen är också grund för [Robot: Humanoiden](../projekt/humanoiden/README.md) och [Robotik Hunden](../projekt/hunden/README.md).

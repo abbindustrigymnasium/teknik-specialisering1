@@ -102,16 +102,6 @@ Skriv alltid upp var viktiga uppgifter kommer ifrån. Det räcker med en länk o
 - **Beslutsmatris:** tabell där alternativ poängsätts och viktas mot varandra.
 - **Källkritik:** systematisk granskning av var information kommer från och hur pålitlig den är.
 
-## Testa dig själv
-
-1. Vad skiljer en robotdammsugare från en vanlig dammsugare, med begreppen i det här kapitlet?
-2. Ge exempel på sensor, styrenhet och ställdon i ett smart system hemma hos dig.
-3. Varför uppstår många fel i mötet mellan två delar av ett system?
-4. Vilken av de fyra strategierna använder du när du testar i en simulator, och varför?
-5. Varför är vikterna i en beslutsmatris viktiga att motivera?
-6. När väger en egen mätning tyngre än ett datablad, och när är det tvärtom?
-7. Varför bör du vara extra försiktig med kodexempel utan versionsuppgift?
-
 ## Koppling till projektet
 
 Beslutsmatrisen och strategierna används i alla projekt och syns tydligast i [Robotmopp](../projekt/robotmopp/README.md), där du väljer strategi och jämför nivåerna. Källkritiken behövs när du gör komponentlistan. Slingan mäta–bestämma–agera är också utgångspunkten för att förstå [Robot: Humanoiden](../projekt/humanoiden/README.md).

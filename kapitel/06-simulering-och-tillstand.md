@@ -150,15 +150,6 @@ En **launch-fil** i ROS2 startar flera noder med ett enda kommando, vilket gör 
 - **Parameter:** värde som kan ändras utan att koden skrivs om.
 - **Launch-fil:** fil som startar flera ROS2-noder samtidigt.
 
-## Testa dig själv
-
-1. Nämn två saker som en simulering är bra på och två saker som den inte visar.
-2. Vad menas med att en tillståndsmaskin alltid är i exakt ett tillstånd?
-3. Varför är det en fördel att skilja beslutslogiken från ROS2-koden?
-4. Varför tar en slumpstädare extra lång tid på sina sista rutor?
-5. Vad behöver en robot veta för att kunna köra i sicksack?
-6. Varför bör du skriva ner vad du väntar dig innan du testar på riktig hårdvara?
-
 ## Koppling till projektet
 
 Täckningsmätning och tillståndsmaskiner används i [Robotmopp](../projekt/robotmopp/README.md), i första hand i labb 8 och labb 10. Grunderna tränar du i [Robotik: Sköldpaddan](../projekt/skoldpaddan/README.md).

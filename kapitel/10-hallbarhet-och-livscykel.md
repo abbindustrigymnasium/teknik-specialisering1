@@ -124,15 +124,6 @@ Det finns sällan ett enkelt svar. Det viktiga är att du kan beskriva vad fråg
 - **Teknikens livscykel:** faserna från forskning till utfasning.
 - **Utfasning:** att en teknik gradvis ersätts och slutar stödjas.
 
-## Testa dig själv
-
-1. Ge ett exempel på en robot som är bra för en dimension av hållbarhet men dålig för en annan.
-2. Varför sker en stor del av elektronikens miljöpåverkan ofta vid tillverkning?
-3. Varför kan viloläge väga tyngre än användning?
-4. Vilken regel skulle du behöva titta på om din robot har en kamera? Motivera.
-5. Vad är risken med att köpa den allra senaste tekniken? Och med att köpa väldigt gammal teknik?
-6. Vad händer med en uppkopplad produkt när säkerhetsuppdateringar upphör?
-
 ## Koppling till projektet
 
 Kapitlet är underlag för [Spetsteknikens livscykel](../projekt/spetsteknikens-livscykel/README.md), där läraren fastställer upplägget. Du kan också använda tänket när du väljer komponenter och utvärderar din lösning i [Robotmopp](../projekt/robotmopp/README.md).

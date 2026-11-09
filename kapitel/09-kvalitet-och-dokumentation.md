@@ -106,16 +106,6 @@ En **utvärdering** jämför resultatet med kraven. Gå igenom kraven ett och et
 - **FMEA:** systematisk genomgång av hur något kan gå fel och vad det får för följder.
 - **Utvärdering:** jämförelse mellan resultat och krav.
 
-## Testa dig själv
-
-1. Skriv om "Roboten ska vara tyst" till ett krav som går att testa.
-2. Vad är skillnaden mellan verifiering och validering?
-3. Varför är det viktigt att bara ändra en sak i taget?
-4. Varför räcker det inte med att visa upp den bästa körningen?
-5. Vad betyder det om ett felsätt har högt risktal men låg sannolikhet?
-6. Vad bör en README alltid innehålla?
-7. Varför ska en utvärdering utgå från kraven?
-
 ## Koppling till projektet
 
 Metoderna i kapitlet används i [Robotmopp](../projekt/robotmopp/README.md), där du följer ett mätprotokoll och redovisar resultat. Dokumentation och presentation gäller alla projekt, även dem där läraren fastställer upplägget senare.

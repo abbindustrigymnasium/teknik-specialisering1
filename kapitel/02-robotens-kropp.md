@@ -112,15 +112,6 @@ Rörliga robotar kan klämma fingrar och slå i föremål. Prova rörelser med l
 - **Stödyta:** området mellan robotens kontaktpunkter mot golvet.
 - **Statisk och dynamisk balans:** stabil när den står stilla, respektive stabil genom ständig rörelse och korrigering.
 
-## Testa dig själv
-
-1. Hur många frihetsgrader har en vanlig bil med styrning på ett plant golv? Motivera.
-2. Varför behöver en DC-motor extra hjälp för att veta var den är?
-3. Vad händer med momentet och farten när utväxlingen ökar?
-4. Varför används en säkerhetsfaktor vid val av servo?
-5. Vad är skillnaden mellan framåtkinematik och inverskinematik?
-6. Varför är statisk balans lättare med fyra ben än med två?
-
 ## Koppling till projektet
 
 Kapitlet förbereder [Robot: Humanoiden](../projekt/humanoiden/README.md) och [Robotik Hunden](../projekt/hunden/README.md), där mekanik, balans och val av ställdon spelar stor roll. Läraren fastställer upplägget i de projekten. Beräkningarna av moment och kraft kommer också till nytta när du bygger chassit i [Robotmopp](../projekt/robotmopp/README.md).

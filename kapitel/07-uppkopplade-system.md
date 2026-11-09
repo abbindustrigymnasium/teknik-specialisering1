@@ -126,16 +126,6 @@ Att testa nivå för nivå hindrar att du letar efter ett nätverksfel i koden.
 - **Dödmansgrepp:** funktion som stoppar en maskin när styrsignalen uteblir.
 - **Firmware:** program som körs direkt på en mikrokontroller.
 
-## Testa dig själv
-
-1. Varför behöver enheter i MQTT inte känna till varandras adresser?
-2. När passar QoS 0 bättre än QoS 2 för en robotbil?
-3. Varför körs ROS2 på datorn och inte på ESP8266?
-4. Vad händer om två bilar använder samma prefix?
-5. Varför ska dödmansgreppet ligga i firmware?
-6. Varför är det viktigt att begränsa värden i bryggan?
-7. Vad kan Last Will användas till i en robotbil?
-
 ## Koppling till projektet
 
 I [Robotmopp](../projekt/robotmopp/README.md) bygger du bryggan i labb 9 och förlitar dig på dödmansgreppet när bilen kör på arenan. Tänk på att använda den MQTT-broker som läraren anger.

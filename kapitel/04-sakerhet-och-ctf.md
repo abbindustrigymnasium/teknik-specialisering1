@@ -125,16 +125,6 @@ Frågetecknet talar om för databasen att värdet alltid är data, aldrig komman
 - **Salt:** slumpvärde som läggs till innan ett lösenord hashas.
 - **Parametriserad fråga:** databasfråga där data skickas skilt från kommandot.
 
-## Testa dig själv
-
-1. Varför är det inte tillåtet att testa ett system bara för att det är dåligt skyddat?
-2. Vad ska du göra om du råkar upptäcka en säkerhetsbrist i en riktig tjänst?
-3. Vad skiljer kodning från kryptering?
-4. Varför sparas lösenord som hashvärden och inte i klartext?
-5. Ge ett exempel på en brist som påverkar tillgänglighet men inte konfidentialitet.
-6. Varför ökar styrkan så snabbt när lösenordet blir längre?
-7. Vad menas med försvar i flera lager?
-
 ## Koppling till projektet
 
 Kapitlet är underlaget för projektet [CTF](../projekt/ctf/README.md), där läraren fastställer upplägget. Hotmodellen kan du också använda på bilen i [Robotmopp](../projekt/robotmopp/README.md).

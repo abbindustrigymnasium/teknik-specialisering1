@@ -133,15 +133,6 @@ Du behöver inte alltid hela PID. Många robotproblem går bra med bara P eller 
 - **Dödzon:** område där styrsignalen är för liten för att ge rörelse.
 - **Integrator-uppvridning:** att I-delen växer för mycket när styrsignalen är begränsad.
 
-## Testa dig själv
-
-1. Vad är skillnaden mellan öppen styrning och reglering?
-2. Varför ger en P-regulator ofta ett kvarstående fel?
-3. Vad händer om förstärkningen blir för hög?
-4. Varför gör fördröjning reglering svårare?
-5. Varför måste du vara försiktig med D-delen på en brusig sensor?
-6. Ge exempel på en regulator i ditt eget vardagsliv.
-
 ## Koppling till projektet
 
 Mjuk inbromsning är en av utmaningarna i labb 10 i [Robotmopp](../projekt/robotmopp/README.md). Reglering är också central för robotar som ska hålla balansen, och därmed relevant för [Robotik Hunden](../projekt/hunden/README.md) och [Robot: Humanoiden](../projekt/humanoiden/README.md), där läraren fastställer upplägget.
