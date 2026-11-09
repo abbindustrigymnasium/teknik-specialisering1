@@ -44,7 +44,6 @@ BACKA_SVANG = "backa_svang"
 BACKA_TID = 1.5
 FART = 0.4
 
-
 class Stadare:
     def __init__(self):
         self.tillstand = KOR_FRAMAT
@@ -61,7 +60,6 @@ class Stadare:
                 return (-FART, 1.0)
             self.tillstand = KOR_FRAMAT
         return (FART, 0.0)
-
 
 s = Stadare()
 assert s.steg(False, 0.0) == (0.4, 0.0)
@@ -160,26 +158,6 @@ En **launch-fil** i ROS2 startar flera noder med ett enda kommando, vilket gör 
 4. Varför tar en slumpstädare extra lång tid på sina sista rutor?
 5. Vad behöver en robot veta för att kunna köra i sicksack?
 6. Varför bör du skriva ner vad du väntar dig innan du testar på riktig hårdvara?
-
-## Övningar
-
-**Grund.** Beräkna vilken ruta en position har med `x = 7,0` och `y = 0,5` i en arena som är 11 enheter bred och delad i 8 rutor.
-
-<details><summary>Svar</summary>
-
-x: 7,0 / 11 · 8 ≈ 5,09, alltså kolumn 5. y: 0,5 / 11 · 8 ≈ 0,36, alltså rad 0.
-
-</details>
-
-**Vidare.** En robot har besökt 51 av 64 rutor. Hur stor är täckningsgraden? Hur många rutor till krävs för att nå 90 %?
-
-<details><summary>Svar</summary>
-
-51 / 64 ≈ 79,7 %. 90 % av 64 är 57,6, så roboten måste nå 58 rutor, alltså 7 rutor till.
-
-</details>
-
-**Utmaning.** Lägg till ett tillstånd `STANNA` i Python-klassen ovan så att roboten står still i 0,3 s innan den börjar backa. Skriv `assert`-rader som visar att det fungerar.
 
 ## Koppling till projektet
 

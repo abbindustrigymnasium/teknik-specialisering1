@@ -136,32 +136,6 @@ Att testa nivå för nivå hindrar att du letar efter ett nätverksfel i koden.
 6. Varför är det viktigt att begränsa värden i bryggan?
 7. Vad kan Last Will användas till i en robotbil?
 
-## Övningar
-
-**Grund.** Vilket kommando skickar bryggan när `linear.x = 0,25` och `angular.z = 1,0`?
-
-<details><summary>Svar</summary>
-
-0,25 · 1023 = 255,75, avhugget till 255. 1,0 · 40 = 40. Kommandot blir `255,40`.
-
-</details>
-
-**Vidare.** Bilen kör 0,25 m/s och dödmansgreppet är 500 ms. Hur långt kör bilen i det sämsta fallet innan motorn stannar, om rullsträcka inte räknas?
-
-<details><summary>Svar</summary>
-
-0,25 · 0,5 = 0,125 m, alltså ungefär 12,5 cm.
-
-</details>
-
-**Utmaning.** En broker delas av 8 bilar. Varje bil skickar 10 avståndsmeddelanden per sekund och tar emot 10 kommandon per sekund. Hur många meddelanden per sekund hanterar brokern? Fundera på vad som händer om alla ökar takten.
-
-<details><summary>Svar</summary>
-
-8 · (10 + 10) = 160 meddelanden per sekund. Om takten ökar kan brokern och nätet bli överbelastade, och då växer fördröjningen.
-
-</details>
-
 ## Koppling till projektet
 
 I [Robotmopp](../projekt/robotmopp/README.md) bygger du bryggan i labb 9 och förlitar dig på dödmansgreppet när bilen kör på arenan. Tänk på att använda den MQTT-broker som läraren anger.

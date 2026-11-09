@@ -133,26 +133,6 @@ Det finns sällan ett enkelt svar. Det viktiga är att du kan beskriva vad fråg
 5. Vad är risken med att köpa den allra senaste tekniken? Och med att köpa väldigt gammal teknik?
 6. Vad händer med en uppkopplad produkt när säkerhetsuppdateringar upphör?
 
-## Övningar
-
-**Grund.** En robot drar 3 W och används 2 timmar per dag i 180 dagar per år. Beräkna energin per år.
-
-<details><summary>Svar</summary>
-
-3 · 2 · 180 = 1080 Wh ≈ 1,08 kWh.
-
-</details>
-
-**Vidare.** Hur länge räcker ett batteri på 11,1 V och 2,2 Ah till en robot som drar 6 W, om all energi antas kunna användas?
-
-<details><summary>Svar</summary>
-
-Energin är 11,1 · 2,2 = 24,42 Wh, vilket ger 24,42 / 6 ≈ 4,07 timmar.
-
-</details>
-
-**Utmaning.** Välj en smart produkt och gör en förenklad livscykelanalys. Diskutera var dess största påverkan ligger, vilka regler som berörs och vad som händer när tillverkaren slutar ge support.
-
 ## Koppling till projektet
 
 Kapitlet är underlag för [Spetsteknikens livscykel](../projekt/spetsteknikens-livscykel/README.md), där läraren fastställer upplägget. Du kan också använda tänket när du väljer komponenter och utvärderar din lösning i [Robotmopp](../projekt/robotmopp/README.md).

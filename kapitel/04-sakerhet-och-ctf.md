@@ -135,26 +135,6 @@ Frågetecknet talar om för databasen att värdet alltid är data, aldrig komman
 6. Varför ökar styrkan så snabbt när lösenordet blir längre?
 7. Vad menas med försvar i flera lager?
 
-## Övningar
-
-**Grund.** Avkoda texten `IODJJD`, som krypterats med Caesarchiffer med steget 3.
-
-<details><summary>Svar</summary>
-
-`FLAGGA`.
-
-</details>
-
-**Vidare.** En PIN-kod har 6 siffror. Hur många möjligheter finns, och hur länge tar det att prova alla om systemet tillåter 1000 försök per sekund? Vilket enkelt skydd stoppar det?
-
-<details><summary>Svar</summary>
-
-10⁶ = 1 000 000 möjligheter, vilket tar 1000 sekunder, ungefär 17 minuter. Ett tak för antalet försök eller en spärr efter några misslyckade försök gör metoden meningslös.
-
-</details>
-
-**Utmaning.** Gör en hotmodell med minst fem rader för ett smart system du känner till, till exempel en uppkopplad kamera. Rangordna hoten efter vad du tycker ska åtgärdas först och motivera.
-
 ## Koppling till projektet
 
 Kapitlet är underlaget för projektet [CTF](../projekt/ctf/README.md), där läraren fastställer upplägget. Hotmodellen kan du också använda på bilen i [Robotmopp](../projekt/robotmopp/README.md).

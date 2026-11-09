@@ -112,20 +112,6 @@ Skriv alltid upp var viktiga uppgifter kommer ifrån. Det räcker med en länk o
 6. När väger en egen mätning tyngre än ett datablad, och när är det tvärtom?
 7. Varför bör du vara extra försiktig med kodexempel utan versionsuppgift?
 
-## Övningar
-
-**Grund.** Räkna om matrisen ovan med vikterna 4, 4 och 2 för de tre egenskaperna, i samma ordning som i tabellen. Vilket alternativ vinner?
-
-<details><summary>Svar</summary>
-
-Slump: 3 · 4 + 5 · 4 + 4 · 2 = 40. Spiral: 4 · 4 + 3 · 4 + 2 · 2 = 32. Styr mot ostädat: 5 · 4 + 2 · 4 + 3 · 2 = 34. Slump vinner.
-
-</details>
-
-**Vidare.** Välj en vardagsprodukt som du tror är smart. Rita mäta–bestämma–agera-slingan för den och markera var den skickar data vidare över nätet.
-
-**Utmaning.** Sök information om hur långt ett valfritt trådlöst protokoll når. Hitta minst tre källor, gradera dem med de fyra frågorna och skriv vilket värde du själv skulle lita på och varför.
-
 ## Koppling till projektet
 
 Beslutsmatrisen och strategierna används i alla projekt och syns tydligast i [Robotmopp](../projekt/robotmopp/README.md), där du väljer strategi och jämför nivåerna. Källkritiken behövs när du gör komponentlistan. Slingan mäta–bestämma–agera är också utgångspunkten för att förstå [Robot: Humanoiden](../projekt/humanoiden/README.md).

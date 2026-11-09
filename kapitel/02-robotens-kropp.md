@@ -121,32 +121,6 @@ Rörliga robotar kan klämma fingrar och slå i föremål. Prova rörelser med l
 5. Vad är skillnaden mellan framåtkinematik och inverskinematik?
 6. Varför är statisk balans lättare med fyra ben än med två?
 
-## Övningar
-
-**Grund.** En last på 0,10 kg sitter 0,20 m från ett servos axel. Beräkna momentet i Nm och i kg·cm.
-
-<details><summary>Svar</summary>
-
-M = 0,10 · 9,82 · 0,20 ≈ 0,196 Nm. 0,196 / 0,0982 = 2,0 kg·cm.
-
-</details>
-
-**Vidare.** En arm har l₁ = 0,12 m och l₂ = 0,10 m. Beräkna handens position för θ₁ = 60° och θ₂ = −30°.
-
-<details><summary>Svar</summary>
-
-x = 0,12 · cos 60° + 0,10 · cos 30° ≈ 0,060 + 0,087 = 0,147 m. y = 0,12 · sin 60° + 0,10 · sin 30° ≈ 0,104 + 0,050 = 0,154 m.
-
-</details>
-
-**Utmaning.** Tyngdpunkten sitter 0,30 m över golvet och stödytans kant är 0,06 m från lodlinjen. Vid vilken lutning börjar roboten välta? Vad kan du ändra i konstruktionen för att öka vinkeln?
-
-<details><summary>Svar</summary>
-
-tan α = 0,06 / 0,30 = 0,2, vilket ger α ≈ 11,3°. Sänk tyngdpunkten eller gör stödytan större.
-
-</details>
-
 ## Koppling till projektet
 
 Kapitlet förbereder [Robot: Humanoiden](../projekt/humanoiden/README.md) och [Robotik Hunden](../projekt/hunden/README.md), där mekanik, balans och val av ställdon spelar stor roll. Läraren fastställer upplägget i de projekten. Beräkningarna av moment och kraft kommer också till nytta när du bygger chassit i [Robotmopp](../projekt/robotmopp/README.md).

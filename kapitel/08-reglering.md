@@ -142,26 +142,6 @@ Du behöver inte alltid hela PID. Många robotproblem går bra med bara P eller 
 5. Varför måste du vara försiktig med D-delen på en brusig sensor?
 6. Ge exempel på en regulator i ditt eget vardagsliv.
 
-## Övningar
-
-**Grund.** Bilen har K = 2, stoppavstånd 0,30 m och maxfart 0,40 m/s. Beräkna farten på avstånden 0,50 m och 0,40 m.
-
-<details><summary>Svar</summary>
-
-Vid 0,50 m: 2 · 0,20 = 0,40 m/s. Vid 0,40 m: 2 · 0,10 = 0,20 m/s.
-
-</details>
-
-**Vidare.** En robot har en konstant störning på 0,20 m/s och P-regulatorn Kp = 4. Hur stort blir det kvarstående felet?
-
-<details><summary>Svar</summary>
-
-e = 0,20 / 4 = 0,05 m.
-
-</details>
-
-**Utmaning.** Kör simuleringen ovan och prova Kp = 2, 5, 10 och 19. Vad händer med svaret? Prova sedan också större värden och försök förklara varför simuleringen blir instabil när Kp · dt blir större än 2.
-
 ## Koppling till projektet
 
 Mjuk inbromsning är en av utmaningarna i labb 10 i [Robotmopp](../projekt/robotmopp/README.md). Reglering är också central för robotar som ska hålla balansen, och därmed relevant för [Robotik Hunden](../projekt/hunden/README.md) och [Robot: Humanoiden](../projekt/humanoiden/README.md), där läraren fastställer upplägget.

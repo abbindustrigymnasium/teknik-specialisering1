@@ -11,7 +11,6 @@ En översikt över kursen, dess delar och projekt: [Smarta system - Kurspresenta
 ## Så använder du boken
 
 - Läs kapitlet innan du börjar på projektet som det förbereder. Tabellen längre ned visar vilket kapitel som hör till vilket projekt.
-- Gör övningarna som är märkta **Grund** först, och gå sedan vidare till **Vidare** och **Utmaning**. Svaren på räkneuppgifterna döljer sig bakom *Svar*.
 - Skriv av kodexemplen, ändra i dem och se vad som händer. Exemplen med ROS2 kräver att ROS2 är installerat, de andra kör du med vanlig Python.
 - Bedömningsgrunderna finns i [kursplanen](kursplan.md).
 

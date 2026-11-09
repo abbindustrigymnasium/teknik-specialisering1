@@ -116,32 +116,6 @@ Sambandet är viktigt att komma ihåg: ju snabbare roboten kör, desto oftare be
 5. Varför ska en ljussensor kalibreras på samma plats som den används?
 6. Nämn två situationer där en ultraljudssensor kan ge fel eller inget eko alls.
 
-## Övningar
-
-**Grund.** Ekot från en HC-SR04 kommer tillbaka efter 5800 µs. Beräkna avståndet med ljudfarten 343 m/s.
-
-<details><summary>Svar</summary>
-
-d = 343 · 0,0058 / 2 ≈ 0,995 m.
-
-</details>
-
-**Vidare.** Tre mätningar blir 18, 19 och 300 cm. Beräkna median och medelvärde, och skriv vilket värde du skulle låta roboten använda.
-
-<details><summary>Svar</summary>
-
-Medianen är 19 cm. Medelvärdet är (18 + 19 + 300) / 3 ≈ 112,3 cm. Medianen är det rimliga värdet, eftersom 300 är en spik.
-
-</details>
-
-**Utmaning.** En bil kör 0,30 m/s och sensorn mäter 10 gånger per sekund. Kommandon försenas 200 ms innan de når bilen. Hur långt hinner bilen köra från att ett hinder dyker upp tills stoppkommandot kommit fram, i det sämsta fallet? Bromssträckan räknas inte.
-
-<details><summary>Svar</summary>
-
-Högst 0,10 s mellan mätningarna ger 0,30 · 0,10 = 3 cm. Fördröjningen ger 0,30 · 0,20 = 6 cm. Totalt ungefär 9 cm.
-
-</details>
-
 ## Koppling till projektet
 
 I [Robotmopp](../projekt/robotmopp/README.md) använder du ultraljudssensorn för hinderstopp och en ljussensor för nivå 3, och där behövs både filter och kalibrering. Sensorförståelsen är också grund för [Robot: Humanoiden](../projekt/humanoiden/README.md) och [Robotik Hunden](../projekt/hunden/README.md).

@@ -116,26 +116,6 @@ En **utvärdering** jämför resultatet med kraven. Gå igenom kraven ett och et
 6. Vad bör en README alltid innehålla?
 7. Varför ska en utvärdering utgå från kraven?
 
-## Övningar
-
-**Grund.** Beräkna risktalet för ett felsätt med A = 5, S = 3 och U = 4.
-
-<details><summary>Svar</summary>
-
-5 · 3 · 4 = 60.
-
-</details>
-
-**Vidare.** En version av en robot ger 52, 55 och 58 rutor av 64 i tre körningar. Beräkna medelvärdet, täckningsgraden och variationsbredden.
-
-<details><summary>Svar</summary>
-
-Medelvärde 55 rutor, täckning 55 / 64 ≈ 85,9 %, variationsbredd 6 rutor.
-
-</details>
-
-**Utmaning.** Ta ett projekt du gjort och skriv fem testbara krav, ett testprotokoll och en FMEA med minst fyra felsätt. Rangordna åtgärderna efter risktalen.
-
 ## Koppling till projektet
 
 Metoderna i kapitlet används i [Robotmopp](../projekt/robotmopp/README.md), där du följer ett mätprotokoll och redovisar resultat. Dokumentation och presentation gäller alla projekt, även dem där läraren fastställer upplägget senare.
